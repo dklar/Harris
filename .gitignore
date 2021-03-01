@@ -1,0 +1,8 @@
+.apc
+.reference
+.settings
+.vscode
+Debug
+solution1
+*.xml
+*.app
