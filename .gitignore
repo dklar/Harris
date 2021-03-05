@@ -3,8 +3,9 @@
 .settings
 .vscode
 Debug
-solution1
+solution1/*
 !solution1/script.tcl
+!solution1/directives.tcl
 *.xml
 *.app
 .cproject
