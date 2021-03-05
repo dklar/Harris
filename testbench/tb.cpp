@@ -7,9 +7,9 @@ int main(int argc, char *argv[]) {
 	IplImage* src_image = new IplImage;
 	IplImage* dst_image = new IplImage;
 	AXI_STREAM src_stream, out_stream;
-	src_image = cvLoadImage("test.jpg");
+	src_image = cvLoadImage("Testpictures\\test.jpg");
 	dst_image = cvCreateImage(cvSize(MAX_WIDTH, MAX_HEIGHT), src_image->depth,
-			3); // src_image->nChannels);
+			3);
 	IplImage2AXIvideo(src_image, src_stream);
 	static weightPixel harris[MAX_WIDTH * MAX_HEIGHT];
 	harris_top(src_stream, harris, thresUp);

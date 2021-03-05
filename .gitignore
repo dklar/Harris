@@ -4,5 +4,8 @@
 .vscode
 Debug
 solution1
+!solution1/script.tcl
 *.xml
 *.app
+.cproject
+.project
