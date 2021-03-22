@@ -9,11 +9,11 @@ add_files Harris/src/harris.hpp
 add_files Harris/src/top.cpp
 add_files Harris/src/top.hpp
 add_files -tb Harris/testbench/tb.cpp
-add_files -tb Harris/Testpictures
-open_solution "solution1"
+add_files -tb Harris/Test_pictures
+open_solution "TCL_scripts"
 set_part {xc7z020-clg400-1}
 create_clock -period 10 -name default
-#source "./Harris/solution1/directives.tcl"
+#source "./Harris/TCL_scripts/directives.tcl"
 csim_design -argv {150}
 csynth_design
 cosim_design
